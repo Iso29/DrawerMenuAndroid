@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="fragments">
+            <menu>
+                <item android:id="@+id/firstFragment"
+                    android:icon="@drawable/baseline_man_4_24"
+                    android:title="First Fragment"/>
+                <item android:id="@+id/secondFragment"
+                    android:icon="@drawable/baseline_man_4_24"
+                    android:title="Second Fragment"/>
+                <item android:id="@+id/thirdFragment"
+                    android:icon="@drawable/baseline_man_4_24"
+                    android:title="Third Fragment"/>
+            </menu>
+        </item>
+    </group>
+</menu>
